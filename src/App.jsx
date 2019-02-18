@@ -7,8 +7,9 @@ class App extends Component {
       <section >
        <p>Hello App!</p>
       </section>
-    )
-  }
-}
-
+    );
+  };
+};
 export default App;
+let appBody = document.getElementById("app-body");
+appBody ? ReactDOM.render(<App/>, appBody) : false;
