@@ -46,4 +46,4 @@ to compile source code into the `dist` folder.
 ## Deploying
 This project can be deployed to production as long as all the source code and assets are compiled into the `dist` folder.
 
-The server must simply be configured to run `npm start` to run.
+The server must simply be configured to run `npm start` to start the app.
